@@ -74,5 +74,28 @@ a {
     width: 50%;
 }
 
+@media only screen and (max-width: 400px){
+    .mainlogo1 {
+        font-size: 24pt;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0px;
+        }
+    .menu {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    word-spacing: 5px;
+    }
+    .menutext {
+        position: relative;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
 
 }
